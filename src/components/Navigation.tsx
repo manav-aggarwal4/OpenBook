@@ -27,6 +27,12 @@ export default function Navigation() {
             <Link href="/verify" className="text-gray-600 hover:text-blue-600 transition-colors">
               Campus Verification
             </Link>
+            <Link href="/faq" className="text-gray-600 hover:text-blue-600 transition-colors">
+              FAQ
+            </Link>
+            <Link href="/support" className="text-gray-600 hover:text-blue-600 transition-colors">
+              Support
+            </Link>
             <Link href="/connect" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
               Get Started
             </Link>
@@ -71,6 +77,20 @@ export default function Navigation() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Campus Verification
+              </Link>
+              <Link
+                href="/faq"
+                className="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                FAQ
+              </Link>
+              <Link
+                href="/support"
+                className="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Support
               </Link>
               <Link
                 href="/connect"
