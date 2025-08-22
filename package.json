@@ -6,7 +6,14 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "contracts:compile": "hardhat compile",
+    "contracts:test": "hardhat test",
+    "contracts:deploy:local": "hardhat node & hardhat run scripts/deploy.ts --network localhost",
+    "contracts:deploy:mumbai": "hardhat run scripts/deploy.ts --network polygonMumbai",
+    "contracts:deploy:polygon": "hardhat run scripts/deploy.ts --network polygon",
+    "contracts:verify": "hardhat verify --network polygon",
+    "contracts:coverage": "hardhat coverage"
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^2.2.8",
@@ -25,12 +32,15 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.0",
+    "hardhat": "^3.0.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
