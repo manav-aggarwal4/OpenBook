@@ -409,7 +409,7 @@ export default function SupportPage() {
                   <FileText className="h-5 w-5 text-gray-400 mr-3" />
                   <div>
                     <p className="text-sm font-medium text-gray-900">Documentation</p>
-                    <a href="https://docs.openbook.com" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700">docs.openbook.com</a>
+                    <Link href="/docs" className="text-sm text-blue-600 hover:text-blue-700">View Documentation</Link>
                   </div>
                 </div>
               </div>

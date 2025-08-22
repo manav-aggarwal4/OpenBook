@@ -185,7 +185,7 @@ export default function Home() {
               <h3 className="text-lg font-semibold mb-4">Resources</h3>
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/help" className="hover:text-white transition-colors">Help Center</Link></li>
-                <li><a href="https://docs.openbook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Documentation</a></li>
+                <li><Link href="/docs" className="hover:text-white transition-colors">Documentation</Link></li>
                 <li><Link href="/support" className="hover:text-white transition-colors">Support</Link></li>
               </ul>
             </div>
