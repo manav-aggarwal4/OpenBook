@@ -185,16 +185,16 @@ export default function Home() {
               <h3 className="text-lg font-semibold mb-4">Resources</h3>
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/help" className="hover:text-white transition-colors">Help Center</Link></li>
-                <li><Link href="/docs" className="hover:text-white transition-colors">Documentation</Link></li>
+                <li><a href="https://docs.openbook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Documentation</a></li>
                 <li><Link href="/support" className="hover:text-white transition-colors">Support</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Technology</h3>
               <ul className="space-y-2 text-gray-400">
-                <li>Polygon Network</li>
-                <li>IPFS Storage</li>
-                <li>Smart Contracts</li>
+                <li><a href="https://polygon.technology" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Polygon Network</a></li>
+                <li><a href="https://ipfs.io" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">IPFS Storage</a></li>
+                <li><a href="https://ethereum.org/en/developers/docs/smart-contracts" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Smart Contracts</a></li>
               </ul>
             </div>
           </div>
